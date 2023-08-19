@@ -35,12 +35,22 @@ export default function App() {
         <option value="EUR">EUR</option>
         <option value="CAD">CAD</option>
         <option value="INR">INR</option>
+        <option value="JPY">JPY</option>
+        <option value="GBP">GBP</option>
+        <option value="AUD">AUD</option>
+        <option value="CHF">CHF</option>
+        <option value="CNY">CNY</option>
       </select>
       <select value={toCurr} onChange={(e) => setToCurr(e.target.value)}>
         <option value="USD">USD</option>
         <option value="EUR">EUR</option>
         <option value="CAD">CAD</option>
         <option value="INR">INR</option>
+        <option value="JPY">JPY</option>
+        <option value="GBP">GBP</option>
+        <option value="AUD">AUD</option>
+        <option value="CHF">CHF</option>
+        <option value="CNY">CNY</option>
       </select>
       <p>
         {converted} {toCurr}
